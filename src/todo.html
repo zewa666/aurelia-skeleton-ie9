@@ -1,0 +1,26 @@
+<template>
+  <style>
+    .done-true {
+      text-decoration: line-through;
+      color: grey;
+    }
+  </style>
+  <section>
+    <h2>Todo</h2>
+    <div ng-controller="TodoController">
+      <span>${remaining()} of ${todos.length} remaining</span>
+      [ <a href="" click.delegate="archive()">archive</a> ]
+      <ul class="unstyled">
+        <li repeat.for="todo of todos">
+          <input type="checkbox" checked.bind="todo.done">
+          <span class="done-${todo.done}">${todo.text}</span>
+        </li>
+      </ul>
+      <form submit.delegate="addTodo()">
+        <input type="text" value.bind="todoText"  size="30"
+               placeholder="add new todo here">
+        <input class="btn-primary" type="submit" value="add">
+      </form>
+    </div>
+  </section>
+</template>
