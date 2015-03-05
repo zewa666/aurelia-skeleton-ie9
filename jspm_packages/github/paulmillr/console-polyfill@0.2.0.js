@@ -1,0 +1,1 @@
+module.exports = require("github:paulmillr/console-polyfill@0.2.0/index");
