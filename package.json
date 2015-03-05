@@ -47,12 +47,15 @@
   },
   "jspm": {
     "dependencies": {
+      "MutationObservers": "github:polymer/MutationObservers@^0.4.2",
+      "WeakMap.git": "github:Benvie/WeakMap@master",
       "aurelia-bootstrapper": "github:aurelia/bootstrapper@^0.9.5",
       "aurelia-dependency-injection": "github:aurelia/dependency-injection@^0.4.5",
       "aurelia-framework": "github:aurelia/framework@^0.8.8",
       "aurelia-http-client": "github:aurelia/http-client@^0.5.5",
       "aurelia-router": "github:aurelia/router@^0.5.8",
       "bootstrap": "github:twbs/bootstrap@^3.3.1",
+      "es6-shim": "^0.27.1",
       "font-awesome": "npm:font-awesome@^4.3.0"
     }
   }

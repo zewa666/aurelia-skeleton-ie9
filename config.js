@@ -9,12 +9,15 @@ System.config({
 
 System.config({
   "map": {
+    "MutationObservers": "github:polymer/MutationObservers@0.4.2",
+    "WeakMap.git": "github:Benvie/WeakMap@master",
     "aurelia-bootstrapper": "github:aurelia/bootstrapper@0.9.5",
     "aurelia-dependency-injection": "github:aurelia/dependency-injection@0.4.5",
     "aurelia-framework": "github:aurelia/framework@0.8.8",
     "aurelia-http-client": "github:aurelia/http-client@0.5.5",
     "aurelia-router": "github:aurelia/router@0.5.8",
     "bootstrap": "github:twbs/bootstrap@3.3.2",
+    "es6-shim": "github:es-shims/es6-shim@0.27.1",
     "font-awesome": "npm:font-awesome@4.3.0",
     "github:aurelia/binding@0.3.7": {
       "aurelia-dependency-injection": "github:aurelia/dependency-injection@0.4.5",
@@ -154,7 +157,6 @@ System.config({
     },
     "npm:amdefine@0.1.0": {
       "fs": "github:jspm/nodelibs-fs@0.1.1",
-      "module": "github:jspm/nodelibs-module@0.1.0",
       "path": "github:jspm/nodelibs-path@0.1.0",
       "process": "github:jspm/nodelibs-process@0.1.1"
     },

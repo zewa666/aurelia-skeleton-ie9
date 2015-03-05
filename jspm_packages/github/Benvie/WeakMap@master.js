@@ -1,0 +1,1 @@
+module.exports = require("github:Benvie/WeakMap@master/weakmap");

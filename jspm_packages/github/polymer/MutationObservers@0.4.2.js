@@ -1,0 +1,1 @@
+module.exports = require("github:polymer/MutationObservers@0.4.2/MutationObserver");
