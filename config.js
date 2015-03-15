@@ -18,6 +18,7 @@ System.config({
     "aurelia-router": "github:aurelia/router@0.5.8",
     "bootstrap": "github:twbs/bootstrap@3.3.2",
     "console-polyfill": "github:paulmillr/console-polyfill@0.2.0",
+    "es6-collections": "github:webreflection/es6-collections@master",
     "es6-shim": "github:es-shims/es6-shim@0.27.1",
     "font-awesome": "npm:font-awesome@4.3.0",
     "github:aurelia/binding@0.3.7": {
